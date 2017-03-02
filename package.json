@@ -1,0 +1,49 @@
+{
+  "name": "bunto-clabot-form",
+  "description": "This is a sample clabot implementation powering the sandbox.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bunto/bunto-cla-form",
+  "author": {
+    "name": "Suriyaa Kudo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bunto/bunto-cla-form.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bunto/bunto-cla-form/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bunto/bunto-cla-form/blob/master/LICENSE"
+    }
+  ],
+  "main": "src/clabot.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "postinstall": "grunt coffee"
+  },
+  "dependencies": {
+    "clabot": "0.0.4",
+    "grunt-cli": "0.1.6",
+    "grunt": "~0.4.0",
+    "grunt-contrib-coffee": "~0.6.2",
+    "forms": "~0.1.4",
+    "connect-assets": "~2.4.0",
+    "jade": "~0.28.2",
+    "cradle": "~0.6.4",
+    "lodash": "~1.0.1",
+    "express": "~2.5.11",
+    "express-form": "~0.7.2"
+  },
+  "keywords": [
+    "CLA",
+    "License",
+    "Contribution",
+    "Bot",
+    "GitHub"
+  ]
+}
