@@ -14,11 +14,11 @@ app = require('clabot').createApp
     maintainer: 'SuriyaaKudoIsc'
   secrets:
     clabot:
-      cla-form: process.env.HUB_SECRET
+      clabot-form: process.env.HUB_SECRET,
       clabot: process.env.HUB_SECRET
 
 app.use require('connect-assets')()
-app.use(express.compress());
+app.use(express.compress())
 
 app.get '/form/:project/:kind?', (req, res) ->
   project = req.params.project
